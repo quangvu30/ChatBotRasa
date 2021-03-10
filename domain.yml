@@ -1,0 +1,260 @@
+version: "2.0"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+actions:
+  - action_default_fallback
+  - action_register_teacher
+ 
+intents:
+  - 5fd0d5b9f2489c0017813f17
+  - 5fd0d653f2489c0017813f1d
+  - 5fd0d68cf2489c0017813f22
+  - 5fd0d6c2f2489c0017813f27
+  - 5fd0d6f0f2489c0017813f2c
+  - 5fd0d736f2489c0017813f32
+  - 5fd0d75cf2489c0017813f37
+  - 5fd0d78bf2489c0017813f3c
+  - 5fd0d7a9f2489c0017813f41
+  - 5fd0d7fcf2489c0017813f46
+  - 5fd0d824f2489c0017813f4b
+  - 5fd0d868f2489c0017813f50
+  - 5fd0d895f2489c0017813f55
+  - 5fd2182d3ffccf00137c7886
+  - 5fd2185e3ffccf00137c788b
+  - 5fd2187f3ffccf00137c7890
+  - 5fd218ac3ffccf00137c7895
+  - 5fd218d33ffccf00137c789a
+  - 5fd218f73ffccf00137c789f
+  - 5fd219163ffccf00137c78a4
+  - 5fd2195d3ffccf00137c78a9
+  - 5fd2197c3ffccf00137c78ae
+  - 5fd219a13ffccf00137c78b3
+  - 5fd219c73ffccf00137c78b8
+  - 5fd219ec3ffccf00137c78bd
+  - 5fd21a0c3ffccf00137c78c2
+  - 5fd21f003ffccf00137c78c7
+  - 5fd21f283ffccf00137c78cc
+  - 5fd21f4a3ffccf00137c78d1
+  - 5fd21f6c3ffccf00137c78d6
+  - 5fd21f8b3ffccf00137c78db
+  - 5fd21fbf3ffccf00137c78e0
+  - 5fd21fe33ffccf00137c78e5
+  - 5fd220063ffccf00137c78ea
+  - 5fd220263ffccf00137c78ef
+  - 5fd220473ffccf00137c78f4
+  - 5fd220793ffccf00137c78f9
+  - 5fd2209b3ffccf00137c78fe
+  - 5fd220cf3ffccf00137c7903
+  - 5fd220ef3ffccf00137c7908
+  - 5fd221103ffccf00137c790c
+  - 5fd221303ffccf00137c7911
+  - 5fd221503ffccf00137c7916
+  - 5fd2216d3ffccf00137c791b
+  - 5fd221a73ffccf00137c7920
+  - 5fd221cc3ffccf00137c7925
+  - 5fd221ec3ffccf00137c792a
+  - 5fd2220c3ffccf00137c792f
+  - 5fd2222b3ffccf00137c7934
+  - 5fd222473ffccf00137c7939
+  - 5fd222623ffccf00137c793e
+  - 5fd2227f3ffccf00137c7943
+  - 5fd222a43ffccf00137c7948
+  - 5fd222c13ffccf00137c794d
+  - 5fd222de3ffccf00137c7952
+  - 5fd223103ffccf00137c7958
+  - 5fd223303ffccf00137c795d
+  - 5fd2234e3ffccf00137c7962
+  - 5fd2236e3ffccf00137c7967
+  - 5fd223933ffccf00137c796c
+  - 5fd223ac3ffccf00137c7971
+  - 5fd223d73ffccf00137c7976
+  - 5fd223fc3ffccf00137c797b
+  - 5fd224203ffccf00137c7980
+  - 5fd224433ffccf00137c7985
+  - 5fd224663ffccf00137c798a
+  - 5fd224be3ffccf00137c798f
+  - 5fd224dd3ffccf00137c7994
+  - 5fd225173ffccf00137c7999
+  - 5fd2253d3ffccf00137c799e
+  - 5fd6d6683ffccf00137c79ff
+  - 5fd7a77f3ffccf00137c7a33
+  - register_teacher
+  - provide_teacher_code
+
+entities:
+  - teacher_code
+
+slots: 
+  teacher_code:
+    type: unfeaturized
+
+responses:
+  utter_5fcf3e6f152f2e00120f3679:
+  - text: 'Xin chào bạn'
+  - text: 'Chào bạn'
+
+  utter_5fd0d944f2489c0017813f5e:
+  - text: 'chào bạn'
+
+  utter_5fd0dc21f2489c0017813f61:
+  - text: 'Hình thức tuyển sinh tại trường. Bạn sẽ nộp hồ sơ tại trường'
+
+  utter_5fd0dc5bf2489c0017813f63:
+  - text: 'Bạn có thể nộp hồ sơ 1 trong 3 cơ sở. Sẽ có sinh viên tình nguyện giúp bạn khi đến nộp hồ sơ.'
+
+  utter_5fd0dc73f2489c0017813f65:
+  - text: 'Bạn cần sơ yếu lý lịch, chứng minh thư photo công chứng, sổ đoàn, ảnh thẻ'
+
+  utter_5fd0dc8ef2489c0017813f67:
+  - text: 'Bạn cần sức khỏe :)'
+
+  utter_5fd0dcabf2489c0017813f69:
+  - text: '250.000/1 tín chỉ'
+
+  utter_5fd0dcc2f2489c0017813f6b:
+  - text: 'Bạn có thể đóng tại trường hoặc online'
+
+  utter_5fd0dce9f2489c0017813f6d:
+  - text: 'Đại học là 4 năm, Cao Đẳng là 2.5 năm,Liên thông là 1.5 năm.'
+
+  utter_5fd0dd1df2489c0017813f6f:
+  - text: 'Có thể học vượt nhé.Thường là vào những kì hè.'
+
+  utter_5fd0dd4cf2489c0017813f71:
+  - text: 'Yes, nếu bạn hoàn thành hết tất cả lỗ trình học trong vòng 3 năm'
+
+  utter_5fd0dd60f2489c0017813f73:
+  - text: 'Bạn sẽ được đánh giá quá trình học tập và đồ án tốt nghiệp để xét bằng nhé.'
+
+  utter_5fd0dd78f2489c0017813f75:
+  - text: 'Nhà trường có liên kết với các công ty, doanh nghiệp để hỗ trợ các bạn có năng lực.'
+
+  utter_5fd0dd99f2489c0017813f77:
+  - text: 'Yes. Bạn sẽ được nhé.'
+
+  utter_5fd2259f3ffccf00137c79a3:
+  - text: '"Cơ sở 1 tại:Số 298 đường Cầu Diễn, quận Bắc Từ Liêm, Hà Nội. Cơ sở 2:Phường Tây Tựu, quận Bắc Từ Liêm, Hà NộiCơ sở 3: Phường Lê Hồng Phong, thành phố Phủ Lý"'
+
+  utter_5fd225c83ffccf00137c79a5:
+  - text: 'Nhà trường hiện có 3 cơ sở.'
+
+  utter_5fd225d93ffccf00137c79a7:
+  - text: 'Cơ sở vật chất tại trường hoàn toàn đầy đủ đáp ứng nhu cầu học tập tại trường.'
+
+  utter_5fd225e83ffccf00137c79a9:
+  - text: '"34 Phó giáo sư231 Tiến sĩ766 Thạc sĩ"'
+
+  utter_5fd226003ffccf00137c79ab:
+  - text: 'TIẾN SĨ: 04 Chuyên ngành. THẠC SĨ: 11 chuyên ngành. Đại học: 34 ngành, chuyên ngành. CAO ĐẲNG: 14 ngành, chuyên ngành. CAO ĐẲNG NGHỀ: 07 nghề. TRUNG CẤP NGHỀ: 01 nghề. Đào tạo ngắn hạn - Đào tạo nâng cao'
+
+  utter_5fd226363ffccf00137c79ae:
+  - text: 'Nhà trường có đào tạo thạc sĩ tiên si nhé.'
+
+  utter_5fd2264f3ffccf00137c79b0:
+  - text: 'Trường Đại học Công nghiệp Hà Nội là trường đại học công lập trực thuộc Bộ Công Thương, có truyền thống đào tạo cán bộ khoa học kỹ thuật, cán bộ kinh tế, công nhân kỹ thuật lâu đời nhất Việt Nam (tiền thân là Trường Chuyên nghiệp Hà Nội thành lập năm 1898 và Trường Chuyên nghiệp Hải Phòng thành lập năm 1913) và là một cơ sở đào tạo định hướng ứng dụng nhiều ngành, nhiều loại hình, nhiều cấp trình độ.Nhà trường được thành lập 122 năm.Bạn có thể tìm hiểu thêm thông tin trên wiki nhé.'
+
+  utter_5fd22a143ffccf00137c79b3:
+  - text: '"Huân chương Hồ Chí MinhĐơn vị anh hùng lao động thời kỳ đổi mới; 02 Huân chương độc lập hạng nhất;01 Huân chương chiến công hạng nhất; 01 Huân chương độc lập hạng ba; 01 Huân chương chiến công hạng ba;• 12 Huân chương lao động hạng nhất, nhì, ba; nhiều cờ thưởng và bằng khen của Chính phủ, các Bộ, ngành"'
+
+  utter_5fd22a2d3ffccf00137c79b5:
+  - text: ''
+
+  utter_5fd22a403ffccf00137c79b7:
+  - text: 'Bộ công thương nhé bạn.'
+
+  utter_5fd22a553ffccf00137c79b9:
+  - text: 'Nhà trường thường tổ chức sự kiện như đón tân sinh viên,…'
+
+  utter_5fd22a693ffccf00137c79bb:
+  - text: 'Trường mình tham gia khá tích cực tham gia các cuộc thi robocon, kĩ nghệ thực hành,…'
+
+  utter_5fd22a7d3ffccf00137c79bd:
+  - text: '"Phạm Hồng Thái là một nhà hoạt động trong Phong trào Đông Du và là người đặt bom ám sát toàn quyền Đông Dương Martial Merlin vào năm 1924.Hoàng Quốc Việt là Bí thư Tổng bộ Việt Minh, Chủ tịch Tổng Công đoàn Việt Nam, Viện trưởng Viện Kiểm sát Nhân dân Tối cao, Chủ tịch Ủy ban Trungương Mặt trận Tổ quốc Việt Nam, Bí thư Xứ ủy Bắc Kỳ.Lương Khánh Thiện Bí thư Xứ uỷ Bắc Kỳ, Bí thư Thành uỷ Hà Nội, Bí thư Thành uỷ Hải Phòng.Lưu Bá Kỳ tham gia phong trào đấu tranh đòi thả nhà chí sĩ Phan Bội Châu."'
+
+  utter_5fd22a983ffccf00137c79bf:
+  - text: 'Cơ sở 1 tại:Số 298 đường Cầu Diễn, quận Bắc Từ Liêm, Hà Nội.'
+
+  utter_5fd22aaa3ffccf00137c79c1:
+  - text: 'Yes đó là trụ sở chính.'
+
+  utter_5fd22abf3ffccf00137c79c3:
+  - text: 'Không hẳn nhưng gần như là vậy.'
+
+  utter_5fd22ad13ffccf00137c79c5:
+  - text: 'Đầy đủ dụng cụ thực hành, phòng học, đáp ứng đủ nhu cầu học tập của sinh viên.'
+
+  utter_5fd22ae23ffccf00137c79c7:
+  - text: 'Trường có một bến chung chuyển ở cổng trường, bạn cũng có thể đi xe máy, xe đạp, đi bộ đến trường nhé.'
+
+  utter_5fd22af63ffccf00137c79c9:
+  - text: 'Trường có rất nhiều câu lạc bộ tại trường như, câu lạc bộ guitar,câu lạc bộ tin học, …'
+
+  utter_5fd22b063ffccf00137c79cb:
+  - text: 'Cơ sở 2:Phường Tây Tựu, quận Bắc Từ Liêm, Hà Nội'
+
+  utter_5fd22b163ffccf00137c79cd:
+  - text: 'Với cơ sở 2 thường các nghành cơ khí, rệt may là chủ yếu nhé bạn'
+
+  utter_5fd22b573ffccf00137c79cf:
+  - text: 'Đầy đủ dụng cụ thực hành, phòng học, đáp ứng đủ nhu cầu học tập của sinh viên.'
+
+  utter_5fd22b8a3ffccf00137c79d3:
+  - text: 'Xét học bổng'
+  - text: 'Khi bạn đạt thành tích học tập tốt và đạt yêu cầu học tập của nhà trường.'
+
+  utter_5fd22ba93ffccf00137c79d6:
+  - text: 'Bạn có thể đến 1 trong 3 cơ sở của trường hoặc liên hệ với số điện thoại: 84-24 37655 121 và số Fax:84-24 37655 261'
+
+  utter_5fd22bba3ffccf00137c79d8:
+  - text: 'Khi bạn hoàn thành môn học và đủ điều kiện dự thi thì bạn sẽ đợi lịch thi sắp xếp của thầy giáo.'
+
+  utter_5fd22bd03ffccf00137c79da:
+  - text: 'Mỗi khoa sẽ một chuẩn đầu ra riêng bạn sẽ được biết khi họp lớp.'
+
+  utter_5fd22be33ffccf00137c79dc:
+  - text: 'Đây ạ:https://www.haui.edu.vn/vn/.'
+
+  utter_5fd22bf23ffccf00137c79de:
+  - text: 'Mỗi khoa sẽ có một văn phòng riêng. Bạn có thể liên hệ với cô giáo chủ nhiệm để biết rõ hơn nhé.'
+
+  utter_5fd22c033ffccf00137c79e0:
+  - text: 'Bạn sẽ lấy ở từng 1 nhà A8 nhé.Nhưng trước đó bạn phải đăng kí ở tai khoản sinh viên của bạn ở phần dịch vụ 1 cửa nhé'
+
+  utter_5fd22c143ffccf00137c79e2:
+  - text: 'Mình là bot nhé.Mình là một phần của ngôi trường này nhé'
+
+  utter_5fd22c3b3ffccf00137c79e5:
+  - text: 'Nhà trường có rất nhiều kênh truyền thông như FB: ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI,Wedsite,...'
+
+  utter_5fd22c4f3ffccf00137c79e7:
+  - text: 'Nhà trường có các câu lạc bộ học tập của riêng các khoa, cũng có câu lạc bộ riêng do các bạn lập ra như câu lạc bộ tiếng anh,…'
+
+  utter_5fd22c5e3ffccf00137c79e9:
+  - text: 'Có nhé bạn. Ở trường có rất nhiều khoa nhiều các bạn nữ như du lịch,may... nhé'
+
+  utter_5fd6d6b23ffccf00137c7a03:
+  - text: 'Ok vậy có thắc mắc cứ tìm mình nhé'
+
+  utter_5fd7a7aa3ffccf00137c7a36:
+  - text: 'Tài khoản của bạn không có quyền thực hiện chức năng này!'
+
+  utter_not_permission:
+  - text: 'Tài khoản của bạn không có quyền thực hiện chức năng này!'
+  
+  utter_fallback: 
+  - text: 'Tôi không hiểu yêu cầu của bạn'
+
+  utter_khoa_noi_bat_cua_truong:
+  - text: ' Khoa nổi bật nhất của trường hiện tại là khoa công nghệ thông tin'
+
+  utter_tim_kiem_viec_cua_khoa_cntt:
+  - text: 'Với khả năng đào tạo của thầy cô trong khoa công nghệ thông tin thì chắc chắn bạn sẽ tìm được việc làm vừa ý nha.'
+
+  utter_register_teacher:
+  - text: 'Bạn hãy nhập vào mã code theo format code : [Ma code]'
+
+
+

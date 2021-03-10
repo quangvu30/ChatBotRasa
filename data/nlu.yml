@@ -1,0 +1,539 @@
+nlu:
+
+- intent: 5fcf3e46152f2e00120f3676
+  examples: |
+    - Xin Chào
+    - Hi
+    - Hello
+    - hello
+    - chào Bạn
+    - chào
+
+- intent: hoi_thong_tin_khoa
+  examples: |
+    - Mình muốn biết trường có bao nhiêu khoa 
+
+- intent: khoa_noi_bat_cua_truong
+  examples: |
+    - Khoa hot nhất của trường là khoa nào ?
+    - Khoa nổi bật nhất của trường là khoa nào ?
+
+- intent: tim_kiem_viec_cua_khoa_cntt
+  examples: |
+    - Khoa công nghệ thông tin có dễ kiếm việc làm ?
+    - Khoa dễ kiếm việc làm nhất ?
+    
+- intent: 5fd0d5b9f2489c0017813f17
+  examples: |
+   - Tuyển sinh như thế nào ?
+   - 2021 tuyển sinh như thế nào ?
+   - 2021 tuyển sinh như thế nào ?Thông tin tuyển sinh 2021 ?Thông tin tuyển sinh 2021 ?
+   - Tuyển sinh 2021 ?
+
+- intent: 5fd0d653f2489c0017813f1d
+  examples: |
+   - Hình thức tuyển sinh như thế nào ?
+   - Tìm hiểu hình thức tuyển sinh 2021 ?
+   - Cách tuyển sinh năm 2021 ?
+   - Hướng đẫn tuyển sinh 2021 ?
+
+- intent: 5fd0d68cf2489c0017813f22
+  examples: |
+   - Tuyển sinh ở đâu ?
+   - Có thể đến đâu để nộp hồ sơ ?
+   - Đến tòa nhà nào để nộp hồ sơ ?
+   - Cho tôi biết địa chỉ ạ ?
+
+- intent: 5fd0d6c2f2489c0017813f27
+  examples: |
+   - Hồ sơ cần những gì vậy ạ ?
+   - Mang theo nhưng gì trong hồ sơ của tôi ?
+   - Cần mang theo những giấy tờ gì trong hồ sơ vậy ?
+   - Nhưng giấy tờ quan trọng cần để vào hồ sơ ?
+
+- intent: 5fd0d6f0f2489c0017813f2c
+  examples: |
+   - Tôi cần mang theo gì khi đi vậy ?
+   - Ngoài hồ sơ ra cần mang theo gì không ?
+   - Ngoài hồ sơ ra cần mang theo gì không ?
+   - Đi nộp hồ sơ thì cần những gì ấy nhỉ ?
+   - Tôi phải mang theo nhưng gì ?
+
+- intent: 5fd0d736f2489c0017813f32
+  examples: |
+   - Nhưng thứ cần thiết mang theo khi đi?
+   - Có phải mang theo những gì ấy nhỉ ?
+   - Những thứ mang theo cần gì nhỉ ?
+   - Tôi chưa biết phải mang theo gì ?
+
+- intent: 5fd0d75cf2489c0017813f37
+  examples: |
+   - Học phí là bao nhiêu ?
+   - Bao nhiêu tiền 1 tín chỉ ?
+   - Số tiền phải đóng trong từng năm ?
+   - Tôi chưa biết phải mang theo gì ?
+
+- intent: 5fd0d78bf2489c0017813f3c
+  examples: |
+   - Có thể đóng tiền bằng cách nào ?
+   - Đóng học phí có bao nhiêu cách ?
+   - Học phí sẽ phải đóng vào thời gian nào ?
+   - Có thể đóng học phí online ?
+
+- intent: 5fd0d7a9f2489c0017813f41
+  examples: |
+   - Với đại học là học bao nhiêu năm ?
+   - Với Cao đẳng là bao nhiêu năm ?
+   - Liên thông là bao nhiêu năm ?
+   - Có thể học tối đa là bao nhiêu năm ?
+
+- intent: 5fd0d7fcf2489c0017813f46
+  examples: |
+   - Có thể học vượt ?
+   - Học lại thì tối đa bao nhiêu năm ?
+   - Tôi có thể bảo lưu khi đi nước ngoài ?
+   - Tôi có thể hoàn thành sớm lộ trình học  ?
+
+- intent: 5fd0d824f2489c0017813f4b
+  examples: |
+   - Tôi có thể hoàn thành sớm lộ trình là 3 năm thay vì 4 năm ?
+   - Làm sao để hoàn thành sớm hơn 4 năm nhỉ ?
+   - Tôi có thể bị ra trường muộn hơn đúng không ?
+   - Tôi có thể hoãn lộ trình học của mình không  ?
+
+- intent: 5fd0d868f2489c0017813f50
+  examples: |
+   - Sau khi hoàn thành tôi sẽ được lấy loại bằng nào ?
+   - Tôi sẽ được xét bằng theo cách tính nào ?
+   - Với số tín chỉ hoàn thành tôi sẽ  được xét bằng gì  ?
+   - Tôi sẽ được bằng gì nhỉ  ?
+
+- intent: 5fd0d895f2489c0017813f55
+  examples: |
+   - Sau khi ra trường tôi có cơ hội việc làm ở đâu ?
+   - Cơ hội việc làm khi ra trường ?
+   - Việc làm của tôi sau khi tốt nghiệp  ?
+   - Sau tốt nghiệp việc làm của tôi ?
+
+- intent: 5fd2182d3ffccf00137c7886
+  examples: |
+   - Nhà trường có mấy cơ sở ?
+   - Số cơ sở của nhà trường  ?
+   - Nhà trường có mấy địa chỉ?
+   - Những cớ sở của nhà trường  ?
+
+- intent: 5fd2185e3ffccf00137c788b
+  examples: |
+   - Điều kiện cơ sở vật chất có tốt không  ?
+   - Cơ sở vật chất của nhà trường như thế nào  ?
+   - Cơ sở vật chất liệu đáp ứng đủ nhu cầu học?
+   - Nhà trường có cơ sở vật chất rất tốt ?
+
+- intent: 5fd2187f3ffccf00137c7890
+  examples: |
+   - Có bao nhiêu giáo viên?
+   - Chất lượng giáo viên ra sao ?
+   - Giảng viên trường có chất lượng như nào ?
+   - Chất lượng giảng viên ?
+
+- intent: 5fd218ac3ffccf00137c7895
+  examples: |
+   - Có tất cả bao nhiêu nghành ?
+   - Tôi có thể xem thông tin các ngành ở đâu ?
+   - Các ngành của trường ?
+   - Số lượng các ngành đào tạo ?
+
+- intent: 5fd218d33ffccf00137c789a
+  examples: |
+   - Các ngành đào tạo nhiều nhất ?
+   - Với các ngành như vậy tôi có thể học được 2 ngành ?
+   - Các ngành có bao nhiêu ?
+   - các ngành đào tạo với số lượng ?
+
+- intent: 5fd218f73ffccf00137c789f
+  examples: |
+   - Nhà trường có đào tạo thạc sĩ,tiến sĩ ?
+   - Đào tạo các hệ thấp hơn Đại học, Cao đẳng ?
+   - Đào tạo nghề ?
+   - Đào tạo hợp tác quốc tế ?
+
+- intent: 5fd219163ffccf00137c78a4
+  examples: |
+   - Các mốc lịch sử của trường ?
+   - Lịch sử của trường  ?
+   - Trường đã được xây dựng và hoạt động bao nhiêu năm ?
+   - Trường hoạt động lâu chưa ?
+
+- intent: 5fd2195d3ffccf00137c78a9
+  examples: |
+   - Thành tích của trường ?
+   - Những thành tích đạt được  ?
+   - Thành tịu của trường là gì ?
+   - Trường đã đạt được thành tịu nào chưa ?
+
+- intent: 5fd2197c3ffccf00137c78ae
+  examples: |
+   - Tiêu cực của trường ?
+   - Những tiêu cực ?
+   - Tiêu cực của trường là gì ?
+   - Những tiêu cực của nhà trường vướng phải ?
+
+- intent: 5fd219a13ffccf00137c78b3
+  examples: |
+   - Trường trực thuộc bộ nào ?
+   - Có phải trường trực thuộc bộ Công Thương ?
+   - Trường trực thuộc các tổ chức?
+   - Tổ chức nào trên trường ?
+
+- intent: 5fd219c73ffccf00137c78b8
+  examples: |
+   - Trường có tổ chức sự kiện cho sinh viên ?
+   - Các hoạt động vui chơi có được trường thực hiện ?
+   - Có các hoạt động vui chơi chứ ?
+   - Những hoạt động cho sinh viên mới nhập trường ?
+
+- intent: 5fd219ec3ffccf00137c78bd
+  examples: |
+   - Trường mình có tham gia các cuộc thi ?
+   - Các cuộc thi mà trường tham gia ?
+   - Trưỡng đã đạt những giải thưởng gì trong các cuộc thi ?
+   - Giải thưởng của những cuộc thi ?
+
+- intent: 5fd21a0c3ffccf00137c78c2
+  examples: |
+   - Trường mình có sinh viên nào nổi tiếng không ạ ?
+   - Ngành anh ấy học là gì ạ?
+   - anh ấy sinh năm bao nhiêu ạ ?
+   - Anh ấy khóa bao nhiêu ạ ?
+
+- intent: 5fd21f003ffccf00137c78c7
+  examples: |
+   - Địa chỉ ở đâu?
+   - Cơ sở 1 địa chỉ ở đâu ạ ?
+   - Cho em xin địa chỉ cơ sở 1 ?
+   - Cơ sở 1 có phải ở Nhổn ?
+
+- intent: 5fd21f283ffccf00137c78cc
+  examples: |
+   - Cơ sở 1 có phải là cơ sở chính ?
+   - Cơ sở chính là ?
+   - Có phải cơ sở chính là cở sở 1 ?
+   - Tại Nhổn là cơ sở chính phải không ạ ?
+
+- intent: 5fd21f4a3ffccf00137c78d1
+  examples: |
+   - Có phải cơ sở 1 tập chung tất cả các ngành ?
+   - Các ngành tập trung hết vào cơ sở 1 ?
+   - Nơi nào tập chung tất cả các ngành ?
+   - Cơ sở nhổn là cơ sở tập chung nhiều ngành nhất ?
+
+- intent: 5fd21f6c3ffccf00137c78d6
+  examples: |
+   - Cơ sở vật chất cơ sở 1 có tốt hay không ?
+   - Các ngành đều tập trung vào cơ sở 1 thì cơ sở vật chất như nào ?
+   - Điều kiện học tập ra sao ?
+   - Những dụng cụ học tập có đáp ứng đủ không
+
+- intent: 5fd21f8b3ffccf00137c78db
+  examples: |
+   - Giao thông tại đây có thuận lơi hay không?
+   - Có thể sử dụng các phương tiện giao thông thuận lợi ?
+   - Có các tuyến bus hay sử dụng xe máy khi đi học ?
+   - Các tuyến đừng có dễ đi lại ?
+
+- intent: 5fd21fbf3ffccf00137c78e0
+  examples: |
+   - Các hoạt động ngoại khóa của sinh viên thì sao?
+   - Sinh viên có thể hoạt động ngoại khóa trong sân trường ?
+   - Có thể tham gia các câu lạc bộ tại trường ?
+   - Nhà trường có tổ chức hoạt động ngoại khóa ?
+
+- intent: 5fd21fe33ffccf00137c78e5
+  examples: |
+   - Địa chỉ ở đâu?
+   - Cơ sở 2 địa chỉ ở đâu ạ ?
+   - Cho em xin địa chỉ cơ sở 2 ?
+   - Cơ sở 2 có phải ở Tây Tựu ?
+
+- intent: 5fd220063ffccf00137c78ea
+  examples: |
+   - Các ngành được đào tạo tai cơ sở 2 ?
+   - Cơ sở 2 tạo các ngành ?
+   - Ngành gì đào tạo tại cơ sở 2 ?
+   - Cơ sở 2 sẽ đào tạo ngành gì ?
+
+- intent: 5fd220263ffccf00137c78ef
+  examples: |
+   - Cơ sở vật chất cơ sở 2 có tốt hay không ?
+   - Cơ sở 2 đáp ứng đủ dụng cụ học tập ?
+   - Điều kiện học tập ra sao ?
+   - Những dụng cụ học tập có đáp ứng đủ không
+
+- intent: 5fd220473ffccf00137c78f4
+  examples: |
+   - Cho tôi xin địa chỉ cơ sở 3 ?
+   - Cơ sở 3 địa chỉ ở đâu ạ ?
+   - Cho em xin địa chỉ cơ sở 3 ?
+   - Cơ sở 3 có phải ở Hà Nam ?
+
+- intent: 5fd220793ffccf00137c78f9
+  examples: |
+   - Các ngành được đào tạo tai cơ sở 3 ?
+   - Cơ sở 3 tạo các ngành ?
+   - Ngành gì đào tạo tại cơ sở 3 ?
+   - Cơ sở 3 sẽ đào tạo ngành gì ?
+
+- intent: 5fd2209b3ffccf00137c78fe
+  examples: |
+   - Giao thông tại đây có thuận lơi hay không?
+   - Có thể sử dụng các phương tiện giao thông thuận lợi ?
+   - Có các tuyến bus hay sử dụng xe máy khi đi học ?
+   - Các tuyến đừng có dễ đi lại ?
+
+- intent: 5fd220cf3ffccf00137c7903
+  examples: |
+   - Các hoạt động ngoại khóa của sinh viên ở cơ sở 3 thì sao?
+   - Sinh viên có thể hoạt động ngoại khóa trong sân trường cơ sở 3?
+   - Có thể tham gia các câu lạc bộ tại cở sở 3?
+   - Nhà trường có tổ chức hoạt động ngoại khóa tại cơ sở 3 ?
+
+- intent: 5fd220ef3ffccf00137c7908
+  examples: |
+   - Cơ sở 3 danh cho đại học ?
+   - Cơ sở 3 chỉ có lớp đại học ?
+   - Học ở cơ sở 3 1 năm ?
+
+- intent: 5fd221103ffccf00137c790c
+  examples: |
+   - Có kí túc xá ở những cơ sở nào ?
+   - Kí túc ở đâu có trong khuôn viên 3 cơ sở không ?
+   - Cơ sở nào có kí túc xá vậy ?
+   - Có kí túc xá không ạ ?
+
+- intent: 5fd221303ffccf00137c7911
+  examples: |
+   - Làm sao để đăng kí ở kí túc xá ?
+   - Đăng kí kí túc xa thế nào vậy ạ?
+   - Ở kí túc xa thì đăng kí làm sao ?
+   - Kí túc xá ? Làm sao có thể đăng kí ?
+
+- intent: 5fd221503ffccf00137c7916
+  examples: |
+   - Cơ sở vật chất của kí túc như nào vậy ạ ?
+   - Chất lượng kí túc tốt không ạ ?
+   - Có những cơ sở vật chất tốt ở kí túc không ?
+   - Kí túc đáp ứng đủ nhu cầu sinh hoạt không a ?
+
+- intent: 5fd2216d3ffccf00137c791b
+  examples: |
+   - Giờ giấc của kí túc xá như nào thế ?
+   - Có thể có tôi biết giờ giấc được không ?
+   - Kí túc đóng và mở lúc mấy giờ đấy ạ ?
+   - Thời gian của kí túc ra sao ạ ?
+
+- intent: 5fd221a73ffccf00137c7920
+  examples: |
+   - Tôi có phải ở ghép vơi ai không  ?
+   - Ai ở sẽ ở với tôi tại kí túc ?
+   - Tôi sẽ ở với những ngoài bạn khác chứ ?
+   - Tôi sẽ ở với mấy người vậy ?
+
+- intent: 5fd221cc3ffccf00137c7925
+  examples: |
+   - Kí túc tôi sẽ ăn uống ở đâu  ?
+   - Tôi có được ăn tại kí túc ?
+   - Ở kí túc tôi sẽ được ăn uống ở đâu ?
+   - Được nấu ăn tạo kí túc ?
+
+- intent: 5fd221ec3ffccf00137c792a
+  examples: |
+   - Cả 3 cơ sở đều có căng tin chứ  ?
+   - Nhưng có cơ sở nào có căng tin ạ ?
+   - Căng tin có ở cả 3 cơ sở ko ạ ?
+   - Các cơ sở trang bị đầy đủ căng tin chứ ạ ?
+
+- intent: 5fd2220c3ffccf00137c792f
+  examples: |
+   - Nhà trường có thư viện không ạ ?
+   - 3 cơ sở có thư viện không ạ ?
+   - Thư viện nhà trường có không ạ ?
+   - Cơ sở nào cũng đều có thư viện phải không ạ ?
+
+- intent: 5fd2222b3ffccf00137c7934
+  examples: |
+   - Thư viện có những sách nào ạ ?
+   - Có các giáo trình chuyên ngành không ạ ?
+   - Đầu sách trong thư viện có phong phú không ạ ?
+   - Những đầu sách trong thư viện
+
+- intent: 5fd222473ffccf00137c7939
+  examples: |
+   - Cơ sở vật chất trong thư viện thì sao ạ?
+   - Cơ sở vật chất đầy đủ để đáp ứng nhu cầu học không ạ ?
+   - Cơ cở vật chất có những gì ạ ?
+   - Thư viện có đầy đủ bàn ghế không ạ ?
+
+- intent: 5fd222623ffccf00137c793e
+  examples: |
+   - Thời gian mở cửa của thư viện là như nào ạ ?
+   - Có thể cho em biết thời gian mở cửa đóng cửa ?
+   - Em có thể vào thư viện vào thời gian nào ?
+   - Thư viện mở cửa sớm không ạ ?
+
+- intent: 5fd2227f3ffccf00137c7943
+  examples: |
+   - Nhà trường có hợp tác với doanh nghiệp không ạ ?
+   - Các doanh nghiệp có hợp tác với nhà trường ko ạ ?
+   - Nhà trường liên kết vơi doanh nghiệp ?
+   - Doanh nghiệp liên kết với nhà trường ?
+
+- intent: 5fd222a43ffccf00137c7948
+  examples: |
+   - Quỹ khuyến học có không ạ ?
+   - Nhà trường có quỹ khuyến học ?
+   - Nhà trường cũng có quỹ khuyễn học phải không ạ ?
+   - Chắc nhà trường cũng có quỹ khuyễn học nhỉ ?
+
+- intent: 5fd222c13ffccf00137c794d
+  examples: |
+   - Nhà trường có hộ thanh niên không ?
+   - Nhà trường chắc cũng có hội thanh nhiên tình nguyện nhỉ ?
+   - Thanh niên tình nguyện nhà trường có không ạ ?
+   - Có hội thanh niên không ạ ?
+
+- intent: 5fd222de3ffccf00137c7952
+  examples: |
+   - Làm sao để vào được hội thanh niên ?
+   - Có thể vào hội thanh niên tình nguyện ạ ?
+   - Em muốn xin vào hội thanh niên tình nguyện thì phải làm sao ạ ?
+   - Em muốn đăng kí sinh viên tình nguyện ?
+
+- intent: 5fd223103ffccf00137c7958
+  examples: |
+   - Nhà trường có cổng thông tin sinh viên không ?
+   - Cổng thông tin sinh viên là gì ạ ?
+   - Cổng thông tin sinh viên nhà trường có không ạ ?
+   - Cho em biết cổng thông tin sinh viên ạ ?
+
+- intent: 5fd223303ffccf00137c795d
+  examples: |
+   - Nhà trường đào tạo quốc tế không ạ ?
+   - Đào tạo quốc tế nhà trường có không ?
+   - Làm sao để được đào tạo quốc tế ạ ?
+   - Đào tạo quốc tế cần những gì ạ ?
+
+- intent: 5fd2234e3ffccf00137c7962
+  examples: |
+   - Nhà trường có học bổng qua các kì không ?
+   - Học bổng thì sao ạ ?
+   - Nhà trường cũng có học bổng cho sinh viên xuất sắc phải không ạ ?
+   - Có học bổng không ạ ?
+
+- intent: 5fd2236e3ffccf00137c7967
+  examples: |
+   - Có những loại học bổng nào ạ ?
+   - Có nhiều loại học bổng phải không ạ ?
+   - Học bổng gồm những loại gì ạ ?
+   - Những loại học bổng ?
+
+- intent: 5fd223933ffccf00137c796c
+  examples: |
+   - Làm sao có thể nhận học bổng ạ ?
+   - Nhận học bổng khi ?
+   - Thành tích như nào thì được nhận học bổng ?
+   - Khi nào thì được nhận học bổng ạ ?
+
+- intent: 5fd223ac3ffccf00137c7971
+  examples: |
+   - Làm sao để liên hệ với trường ?
+   - Tôi có thể liên hệ với trường ?
+   - Liên hệ với trường bằng cách nào ?
+   - Có thể cho tôi biết cách liên hệ với trường ?
+
+- intent: 5fd223d73ffccf00137c7976
+  examples: |
+   - Thi cử thì sao ạ ?
+   - Thi hết môn vào lúc nào ạ ?
+   - Bao giờ sẽ thi hết môn ?
+   - Khi học xong bao giờ thì thi qua môn ạ ?
+
+- intent: 5fd223fc3ffccf00137c797b
+  examples: |
+   - Chuẩn đầu ra là thế nào ạ ?
+   - Thế nào là chuẩn đầu ra ?
+   - Chuẩn đầu ra cần những gì ?
+   - Chuẩn đầu ra là sao ạ ?
+
+- intent: 5fd224203ffccf00137c7980
+  examples: |
+   - Wed chủ của nhà trường là gì ạ ?
+   - Công thông tin chính của trường ạ ?
+   - Trường có cổng thông tin không ạ ?
+   - Wed thông tin của nhà trường là gì ạ ?
+
+- intent: 5fd224433ffccf00137c7985
+  examples: |
+   - Văn phòng của các khoa ở đâu ạ
+   - Làm sao để tìm văn phòng khoa ạ
+   - Văn phòng khoa ở tòa nào ạ
+   - Các khoa có văn phòng khoa riêng không ạ
+
+- intent: 5fd224663ffccf00137c798a
+  examples: |
+   - Cần xin dấu đỏ thì lấy ở đâu ?
+   - Làm vé xe bus lấy giấy ở đâu ?
+   - Giấy xác nhận sinh viên lấy ở đâu ạ ?
+   - Tòa nào lấy dấu đỏ
+
+- intent: 5fd224be3ffccf00137c798f
+  examples: |
+   - Bạn là ai thế ?
+   - Bạn là người hay là bot thế
+   - Bạn có phải là sinh viên trường không ?
+   - Who are you
+
+- intent: 5fd224dd3ffccf00137c7994
+  examples: |
+   - Trường có kênh truyền thông không ạ ?
+   - Kềnh truyền thông của trường là gì ?
+   - Nhà trường có truyền thông riêng không ?
+   - Có những kênh truyền thông nào ạ
+
+- intent: 5fd225173ffccf00137c7999
+  examples: |
+   - Trường có các câu lạc bộ học tập không ?
+   - Các câu lạc bộ học tập là gì ạ ?
+   - Có những câu lạc bộ nào ạ ?
+   - Câu lạc bộ học tập của trường ?
+
+- intent: 5fd2253d3ffccf00137c799e
+  examples: |
+   - Liệu học ở trường có người yêu không ?
+   - Ở trường có nhiều bạn nữ không ạ ?
+   - Học ở đây có người yêu không ?
+   - Liệu có tìm được nửa kia cho mình không ạ ?
+
+- intent: 5fd6d6683ffccf00137c79ff
+  examples: |
+   - Mình hết câu hỏi rồi. cảm ơn nhé
+   - Cảm ơn nhé mình hỏi xong rồi
+   - Cảm ơn nha mình hiểu rồi
+   - Cảm ơn bạn
+
+- intent: 5fd7a77f3ffccf00137c7a33
+  examples: |
+   - not_permission
+   - not_allow
+
+- intent: register_teacher
+  examples: |
+   - Đăng ký
+   - Đăng ký giáo viên
+   - Đăng ký giáo viên thế nào ?
+   - Làm sao để đăng ký giáo viên ?
+   - Tôi cần làm gì để đăng ký giáo viên ?
+   - Cách đăng ký giáo viên
+
+- intent: provide_teacher_code
+  examples: |
+   - code : [3z85zG6pez6VSbHaF8Ly] (teacher_code)

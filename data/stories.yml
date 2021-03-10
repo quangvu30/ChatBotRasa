@@ -1,0 +1,223 @@
+stories:
+
+- story: Chào hỏi
+  steps:
+  - intent: 5fcf3e46152f2e00120f3676
+  - action: utter_5fcf3e6f152f2e00120f3679
+
+- story: Cách thức tuyển sinh
+  steps:
+  - intent: 5fd0d653f2489c0017813f1d
+  - action: utter_5fd0dc21f2489c0017813f61
+
+- story: Địa chỉ tuyển sinh
+  steps:
+  - intent: 5fd0d68cf2489c0017813f22
+  - action: utter_5fd0dc5bf2489c0017813f63
+
+- story: Hồ sơ  tuyển sinh
+  steps:
+  - intent: 5fd0d6c2f2489c0017813f27
+  - action: utter_5fd0dc73f2489c0017813f65
+
+- story: Cần mang theo khi đi tuyển sinh
+  steps:
+  - intent: 5fd0d6f0f2489c0017813f2c
+  - intent: 5fd0d6f0f2489c0017813f2c
+  - action: utter_5fd0dc8ef2489c0017813f67
+
+- story: Thông tin Học phí
+  steps:
+  - intent: 5fd0d75cf2489c0017813f37
+  - action: utter_5fd0dcabf2489c0017813f69
+
+- story: Cách đóng học phí
+  steps:
+  - intent: 5fd0d78bf2489c0017813f3c
+  - action: utter_5fd0dcc2f2489c0017813f6b
+
+- story: Thông tin lộ trình học
+  steps:
+  - intent: 5fd0d7a9f2489c0017813f41
+  - action: utter_5fd0dce9f2489c0017813f6d
+
+- story: Thông tin học vượt
+  steps:
+  - intent: 5fd0d7fcf2489c0017813f46
+  - action: utter_5fd0dd1df2489c0017813f6f
+
+- story: Thông tin lộ trình học vượt
+  steps:
+  - intent: 5fd0d824f2489c0017813f4b
+  - action: utter_5fd0dd4cf2489c0017813f71
+
+- story: Xét bằng
+  steps:
+  - intent: 5fd0d868f2489c0017813f50
+  - action: utter_5fd0dd60f2489c0017813f73
+
+- story: Cơ hội làm việc
+  steps:
+  - intent: 5fd0d895f2489c0017813f55
+  - action: utter_5fd0dd78f2489c0017813f75
+
+- story: Thông tin cơ sở vật chất
+  steps:
+  - intent: 5fd2185e3ffccf00137c788b
+  - action: utter_5fd225d93ffccf00137c79a7
+
+- story: Thông tin giáo viên
+  steps:
+  - intent: 5fd2187f3ffccf00137c7890
+  - action: utter_5fd225e83ffccf00137c79a9
+
+- story: Thông tin Các ngành đào tạo
+  steps:
+  - intent: 5fd218ac3ffccf00137c7895
+  - action: utter_5fd226003ffccf00137c79ab
+
+- story: Thông tin Ngành
+  steps:
+  - intent: 5fd218d33ffccf00137c789a
+  - intent: 5fd218d33ffccf00137c789a
+
+- story: Thông tin Hệ
+  steps:
+  - intent: 5fd218f73ffccf00137c789f
+  - action: utter_5fd226363ffccf00137c79ae
+
+- story: Thông tin về lịch sử trường
+  steps:
+  - intent: 5fd219163ffccf00137c78a4
+  - action: utter_5fd2264f3ffccf00137c79b0
+
+- story: Thông tin về thành tích trường
+  steps:
+  - intent: 5fd2195d3ffccf00137c78a9
+  - action: utter_5fd22a143ffccf00137c79b3
+
+- story: Thông tin tiêu cực về trường
+  steps:
+  - intent: 5fd2197c3ffccf00137c78ae
+  - action: utter_5fd22a2d3ffccf00137c79b5
+
+- story: Trường trực thuộc
+  steps:
+  - intent: 5fd219a13ffccf00137c78b3
+  - action: utter_5fd22a403ffccf00137c79b7
+
+- story: Thông tin về Các hoạt động vui chơi
+  steps:
+  - intent: 5fd219c73ffccf00137c78b8
+  - action: utter_5fd22a553ffccf00137c79b9
+
+- story: Thông tin về trường giải thưởng các cuộc thi
+  steps:
+  - intent: 5fd219ec3ffccf00137c78bd
+  - action: utter_5fd22a693ffccf00137c79bb
+
+- story: Thông tin về các sinh viên nổi tiếng
+  steps:
+  - intent: 5fd21a0c3ffccf00137c78c2
+  - action: utter_5fd22a7d3ffccf00137c79bd
+
+- story: Thông tin địa chỉ cơ sở 1
+  steps:
+  - intent: 5fd21f003ffccf00137c78c7
+  - action: utter_5fd22a983ffccf00137c79bf
+
+- story: Thông tin về cơ sở 1
+  steps:
+  - intent: 5fd21f283ffccf00137c78cc
+  - action: utter_5fd22aaa3ffccf00137c79c1
+
+- story: Các ngành cơ sở 1
+  steps:
+  - intent: 5fd21f4a3ffccf00137c78d1
+  - action: utter_5fd22abf3ffccf00137c79c3
+
+- story: Cơ sở vật chất cơ sở 1
+  steps:
+  - intent: 5fd21f6c3ffccf00137c78d6
+  - action: utter_5fd22ad13ffccf00137c79c5
+
+- story: Giao thông cơ sở 1
+  steps:
+  - intent: 5fd21f8b3ffccf00137c78db
+  - action: utter_5fd22ae23ffccf00137c79c7
+
+- story: Câu lạc bộ tại cơ sỏ 1
+  steps:
+  - intent: 5fd21fbf3ffccf00137c78e0
+  - action: utter_5fd22af63ffccf00137c79c9
+
+- story: Xét học bổng
+  steps:
+  - intent: 5fd223933ffccf00137c796c
+  - action: utter_5fd22b8a3ffccf00137c79d3
+
+- story: Thông tin liên hệ
+  steps:
+  - intent: 5fd223ac3ffccf00137c7971
+  - action: utter_5fd22ba93ffccf00137c79d6
+
+- story: Thông tin thi cử
+  steps:
+  - intent: 5fd223d73ffccf00137c7976
+  - action: utter_5fd22bba3ffccf00137c79d8
+
+- story: Thông tin chuẩn đầu ra
+  steps:
+  - intent: 5fd223fc3ffccf00137c797b
+  - action: utter_5fd22bd03ffccf00137c79da
+
+- story: Thông tin wedsite
+  steps:
+  - intent: 5fd224203ffccf00137c7980
+  - action: utter_5fd22be33ffccf00137c79dc
+
+- story: Thông tin văn phòng khoa
+  steps:
+  - intent: 5fd224433ffccf00137c7985
+  - action: utter_5fd22bf23ffccf00137c79de
+
+- story: Thông tin dịch vụ 1 cửa
+  steps:
+  - intent: 5fd224663ffccf00137c798a
+  - action: utter_5fd22c033ffccf00137c79e0
+
+- story: Nói chuyện
+  steps:
+  - intent: 5fd224be3ffccf00137c798f
+  - action: utter_5fd22c143ffccf00137c79e2
+
+- story: Thông tin kênh truyền thông
+  steps:
+  - intent: 5fd224dd3ffccf00137c7994
+  - action: utter_5fd22c3b3ffccf00137c79e5
+
+- story: Khoa hot nhất của trường là khoa nào
+  steps:
+  - intent: khoa_noi_bat_cua_truong
+  - action: utter_khoa_noi_bat_cua_truong
+
+- story: Cảm ơn
+  steps:
+  - intent: 5fd6d6683ffccf00137c79ff
+  - action: utter_5fd6d6b23ffccf00137c7a03
+
+- story: Thông tin câu lạc bộ học tập
+  steps:
+  - intent: 5fd225173ffccf00137c7999
+  - action: utter_5fd22c4f3ffccf00137c79e7
+
+- story: Trò chuyện
+  steps:
+  - intent: 5fd2253d3ffccf00137c799e
+  - action: utter_5fd22c5e3ffccf00137c79e9
+
+- story: Đăng ký giáo viên
+  steps:
+  - intent: register_teacher
+  - action: utter_register_teacher
+  - action: action_register_teacher
