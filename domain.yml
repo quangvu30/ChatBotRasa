@@ -83,6 +83,8 @@ intents:
   - 5fd7a77f3ffccf00137c7a33
   - register_teacher
   - provide_teacher_code
+  - update_infor_teacher
+  - reply_question
 
 entities:
   - teacher_code
@@ -254,7 +256,11 @@ responses:
   - text: 'Với khả năng đào tạo của thầy cô trong khoa công nghệ thông tin thì chắc chắn bạn sẽ tìm được việc làm vừa ý nha.'
 
   utter_register_teacher:
-  - text: 'Bạn hãy nhập vào mã code theo format code : [Ma code]'
+  - text: 'Bạn hãy nhập vào mã code theo format: code:[Mã code]'
 
+  utter_update_infor_teacher:
+  - text: 'Bạn hãy nhập theo format: name : [your_name], birday : [yyyy-mm-dd]'
 
+  utter_reply_question:
+  - text: 'Bạn hãy nhập câu trả lời theo format: reply: [ID câu hỏi]: [ID học sinh]: [Câu trả lời của bạn !]'
 

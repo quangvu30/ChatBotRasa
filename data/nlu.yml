@@ -533,6 +533,25 @@ nlu:
    - Làm sao để đăng ký giáo viên ?
    - Tôi cần làm gì để đăng ký giáo viên ?
    - Cách đăng ký giáo viên
+   - Hướng dẫn đăng ký giáo viên
+   - Đăng ký giáo viên bằng cách nào
+
+- intent: update_infor_teacher
+  examples: |
+   - Cập nhât
+   - Cập nhật thông tin giáo viên
+   - Cập nhật giáo viên
+   - Cho tôi cập nhật thông tin
+   - Tôi muốn cập nhật thông tin 
+
+- intent: reply_quesion
+  examples: |
+   - Trả lời câu hỏi
+   - Làm sao trả lời câu hỏi
+   - Làm thế nào để trả lời câu hỏi 
+   - Hướng dẫn tôi trả lời câu hỏi ?
+   - Định dạng trả lời câu hỏi thế nào ?
+   - Tôi muốn trả lời câu hỏi 
 
 - intent: provide_teacher_code
   examples: |

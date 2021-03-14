@@ -220,4 +220,13 @@ stories:
   steps:
   - intent: register_teacher
   - action: utter_register_teacher
-  - action: action_register_teacher
+
+- story: Cập nhật thông tin giáo viên
+  steps: 
+  - intent: update_infor_teacher
+  - action: utter_update_infor_teacher
+
+- story: Giáo viên trả lời câu hỏi của sinh viên
+  steps:
+  - intent: reply_question
+  - action: utter_reply_question
